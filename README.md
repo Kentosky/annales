@@ -1,17 +1,19 @@
-# Quartz v5
+# Annales — kit de démarrage
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Contenu de ce dossier et où le placer dans ton dépôt Quartz :
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+| Ici | Dans ton dépôt |
+|---|---|
+| `content/` | remplace le dossier `content/` |
+| `quartz.config.yaml` | remplace le fichier du même nom (pense à changer `baseUrl`) |
+| `.github/workflows/deploy.yml` | à la racine du dépôt, tel quel |
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+Prévisualiser en local :
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+```bash
+npm ci
+npx quartz plugin install
+npx quartz build --serve
+```
 
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+Puis ouvre http://localhost:8080. Le dossier `content/` est aussi un coffre Obsidian valide : ouvre-le directement dans Obsidian pour éditer.

@@ -1,16 +1,16 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Annales
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
-  analytics:
-    provider: plausible
-  locale: en-US
-  baseUrl: quartz.jzhao.xyz
+  analytics: null
+  locale: fr-FR
+  baseUrl: Kentosky.github.io/annales
   ignorePatterns:
     - private
     - templates
+    - _modele-fiche.md
     - .obsidian
   theme:
     fontOrigin: googleFonts
