@@ -6,4 +6,4 @@ Retour : [[Annee-3/IT/index|IT]]
 
 ## Annales
 
-- [[Partiel-2022-2023]] (exemple fictif)
+- [[Partiel-2021-2022]] (exemple fictif)
