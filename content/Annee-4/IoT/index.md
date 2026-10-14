@@ -1,5 +1,5 @@
 ---
-title: Électronique et systèmes numériques — IoT
+title: IoT
 ---
 
 Retour : [[Annee-4/index|Année 4]]

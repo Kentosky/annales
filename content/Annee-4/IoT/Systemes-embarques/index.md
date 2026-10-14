@@ -2,7 +2,7 @@
 title: Systèmes embarqués
 ---
 
-Retour : [[Annee-4/IoT/index|Électronique et systèmes numériques — IoT]]
+Retour : [[Annee-4/IoT/index|IoT]]
 
 ## Annales
 
